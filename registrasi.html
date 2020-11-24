@@ -1,0 +1,81 @@
+<html>
+<head>
+    <!--1810512029 Ananda Safira-->
+    <title>ELF INDONESIA</title>
+    <link rel="stylesheet" href="registrasi.css">
+    <script type="text/javascript">
+        function klikregis(){
+        var nama = document.forms["regis"]["nama"].value;
+        var email = document.forms["regis"]["email"].value;
+        var usia = document.forms["regis"]["usia"].value;
+        var pekerjaan = document.forms["regis"]["pekerjaan"].value;
+        var negara = document.forms["regis"]["negara"].value;
+        var bias = document.forms["regis"]["bias"].value;
+        var gender = document.forms["regis"]["gender"].value;
+        alert("Selamat Bergabung Dalam Membership ELF INDONESIA \nNama       : "+nama+"\nE-mail      : "+email+"\nUsia         : "+usia+"\nPekerjaan : "+pekerjaan+"\nNegara   : "+negara+"\nBias   : "+bias+"\nGender  : "+gender);
+        }
+    </script>
+</head>
+<body>
+     
+    <div class="badan-utama">
+        
+        <header>
+            <h2>ELF INDONESIA</h2>
+            <p>ELF INDONESIA FANCLUB OFFICIAL SUPER JUNIOR</p>
+        </header>
+ 
+        <nav class="navigasi">
+            <ul>
+                <li><a class="active" href="home.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="registrasi.html">Registrasi</a></li>
+            </ul>
+        </nav>
+ 
+        <div class="banner">
+            <img src="promisetobelieve.jpeg" alt="Super Junior">
+            <audio controls>
+                    <source src="superjunior.ogg" type="audio/ogg">
+                    <source src="superjunior.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+    <div class="body">
+    <br><br>
+    <div class="judulform">
+        <h1>Registrasi Ace Member</h1>
+    </div>
+    <div class="form">
+        <form name="regis" onsubmit="return klikregis()" method="post">
+            <h2 class="label">Nama</h2>
+            <input class="isi" type="text" name="nama" placeholder="Nama">
+            <h2 class="label">Password</h2>
+            <input class="isi" type="Password" name="" placeholder="Password">
+            <h2 class="label">Email</h2>
+            <input class="isi" type="Email" name="email" placeholder="Email">
+            <h2 class="label">Usia</h2>
+            <input class="isi" type="text" name="usia" placeholder="Usia">
+            <h2 class="label">Pekerjaan</h2>
+            <input class="isi" type="text" name="pekerjaan" placeholder="Pekerjaan">
+            <h2 class="label">Negara</h2>
+            <input class="isi" type="text" name="negara" placeholder="Negara">
+            <h2 class="label">Bias</h2>
+            <input class="isi" type="text" name="bias" placeholder="Bias">
+            <h2 class="label">Gender</h2>
+            <input class="isi" type="text" name="gender" placeholder="Jenis Kelamin">
+
+            <input type="checkbox" id="ch">
+                <span id="ch" style="color: #194F92"> Saya setuju dengan semua</span><br><br>
+            <button onclick="klikregis()">Register</button>
+        </form>
+    </div>
+    <br><br>
+    </div>s
+        <footer>
+            © 2020 ELF INDONESIA Design By Ananda Safira
+        </footer>
+ 
+    </div>
+ 
+</body>
+</html>

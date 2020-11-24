@@ -1,0 +1,148 @@
+body {
+    background-color: gainsboro;
+}
+ 
+.badan-utama {
+    max-width: 1080px;
+    margin: 20px auto;
+    background-color: #FAFAFB;
+    padding: 15px;
+    overflow: hidden;
+}
+ 
+header {
+    background-color: #CBD5F0;
+    color: #194F92;
+    padding: 20px;
+    text-align: center;
+}
+ 
+header h2 {
+    margin-bottom: 7px;
+    font-size: 35px;
+}
+ 
+.navigasi ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #194F92;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+ 
+.navigasi li {
+    float: left;
+}
+ 
+.navigasi li a {
+    display: block;
+    color: #CBD5F0;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+ 
+.navigasi li a:hover {
+    background-color: #FAFAFB;
+    color: #194F92;
+}
+ 
+.banner {
+    margin-bottom: 15px;
+}
+ 
+.banner img {
+    display: block;
+    width: auto;
+    height: 607.5px;
+    background-attachment: fixed;
+}
+
+button {
+    background-color:#194F92;
+    margin: 20px 0px 0px 20px;
+    text-align: center;
+    border-radius: 13px;
+    border:3px solid #CBD5F0;
+    padding: 14px 110px;
+    outline: none;
+    color: #CBD5F0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.25px; 
+    position: relative;
+    left: 30%;
+}
+
+button:hover {
+    background-color: #FAFAFB;
+    color: #194F92
+}
+
+.judulform {
+    top: 100px;
+    width: 800px;
+    margin: auto;
+    background-color: #CBD5F0;
+    padding: 10px;
+    color: #194F92;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.form {
+    width: 800px;
+    margin: auto;
+    background-color: #CBD5F0;
+    padding: 10px;
+    border-radius: 0px 0px 30px 30px;
+}
+
+.label {
+    margin-left: 25px;
+    margin-top: 2px;
+    width: 125px;
+    color:#194F92;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.isi {
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 30px;
+    width: 480px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;            
+}
+.option {
+    position: relative;
+    left: 200px;
+    top: -40px;
+    line-height: 50px;
+    width: 500px;
+    height: 40px;
+    border-radius: 6px;
+    padding: 15px;
+    font-size: 20px;
+}
+
+footer {
+    clear: both;
+    background-color: #194F92;
+    color: #CBD5F0;
+    padding: 15px;
+    font-size: 20px;
+    font-family: courier;
+    text-align: center;
+}
